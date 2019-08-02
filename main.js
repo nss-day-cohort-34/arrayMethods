@@ -13,11 +13,7 @@
 // some() -iterates the array and returns true if one item in the array meets the condition and false if it does not.
 // includes()- iterates the array and returns true if the array includes a certain element and false if it does not.
 
-
 // reduce - iterates the array and preforms an action on each item in the array and reduces the array to a single value
-
-
-
 
 const createAnimal = (
   stuffingMaterial,
@@ -81,7 +77,15 @@ const truthy = createAnimal(
   49
 )
 
-const jeff = createAnimal("grass", "bark", "giraffe", "teal", false, "Giraffe", 1)
+const jeff = createAnimal(
+  "grass",
+  "bark",
+  "giraffe",
+  "teal",
+  false,
+  "Giraffe",
+  1
+)
 
 const tom = createAnimal(
   "feathers",
@@ -91,9 +95,25 @@ const tom = createAnimal(
   false,
   "Duck",
   5
-  )
+)
 
-  const animals = [tom, jeff, sonic, barry, truthy, diggy]
-  console.log('animals: ', animals);
+const animals = [tom, jeff, sonic, barry, truthy, diggy]
+console.log("animals: ", animals)
+
+// if the hasClothing property value is true change it to false and if false change to true for each item in the array.
+
+// return a new array of just colors called animalColors
+
+// return a new array of just prices called animalPrices
+
+// return a new array of animals where the price is over 100
+
+// return the animal that has coal for eyeballs.
+
+// sort animalColors alphabetically
+
+// sort the animalPrices
+
+// return the sum of animalPrices
 
 
